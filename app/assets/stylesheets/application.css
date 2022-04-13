@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, arial, helvetica, sans-serif;
+  background-color: none;
+}
+
+#notice{
+  color: green;
+  font-size: 13px;
+}
+
+h1{
+  margin: 30px;
+  font-size: 25px
+}
+
+.start{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.start-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.top-text{
+  margin: 30px;
+  font-size: 13px
+}
+
+.top-start{
+  color: gray;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+.newbook{
+  margin: 30px;
+}
+
+
+
+.index-text{
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.editing-book{
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: lighter
+}
+
+.editing-book-title{
+  margin-top: 10px;
+}
+
+.editing-book-body{
+  margin-top: 10px;
+}
+
+.update-book{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.editing-book-show{
+  color: gray;
+  font-size: 13px;
+}
+
+.show-body{
+  margin: 30px;
+  padding: 0;
+}
+
+.show-title1{
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.show-title2{
+  font-size: 13px;
+  font-weight: bold
+}
+
+.show-title3{
+  font-size: 13px;
+  }
+
+.show-body1{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.show-body2{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.show-body3{
+  font-size: 13px;
+}
+
+.show-edit-back{
+  margin: 30px;
+}
+
+.index-header{
+  margin: 30px;
+  padding: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.index-table{
+  margin-left: 30px;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+.index-footer{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.index-new-book{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.index-newbook-title{
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.index-newbook-body{
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.index-createbook{
+   margin-top: 10px;
+}
+
+.index-error{
+  width: 450px;
+  height: 100px;
+  border: 2px solid red;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: gainsboro;
+}
+
+.index-error-title{
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  background-color: #B20000;
+  font-size: 13px;
+  font-weight: bolder;
+  color: white;
+}
+
+.index-error-text{
+  font-size: 10px;
+  font-weight: lighter;
+  position: center;
+}
+
+.link{
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.notice{
+  color: green;
+  font-size: 12px
+}

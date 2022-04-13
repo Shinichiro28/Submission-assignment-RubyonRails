@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/bookers/app/assets/stylesheets/application.css">
+    <title>show</title>
+  </head>
+
+  <body class="show-body">
+    <p id="notice"></p>
+    <div class=show-title1>
+      <p class="show-title2">Title:</p>
+      <p class="show-title3"><%= @book.title %></p>
+    </div>
+    <div class="show-body1">
+      <p class="show-body2">Body:</p>
+      <p class="show-body3"><%= @book.body %></p>
+    </div>
+
+    <div class="show-edit-back">
+    <p class="link">
+    <%=link_to "Edit",edit_book_path(@book)%>
+     |
+    <%=link_to"Back",books_path%>
+    </p>
+    </div>
+
+
+</body>
+</html>
